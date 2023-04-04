@@ -1,0 +1,74 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+font-family: 'Open Sans', sans-serif;
+background-color: hsl(210, 36%, 96%);
+color: #222;
+font-size: 1.25rem;
+}
+
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font: 3rem 'Great Vibes', cursive;
+    color: #c59d5f;
+    margin: 5rem 0;
+    
+}
+
+#questions{
+  
+}
+
+.dropDown{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    margin: 3rem 0;
+    width: 550px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 9px;
+
+    display: flex;
+    justify-content: flex-start;
+  
+    padding: 0 1rem 0;
+
+    letter-spacing: 0.3ch;
+}
+
+.dislay{
+    
+    height: 150px;
+    align-items: start;
+}
+
+
+.material-symbols-outlined{
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 58;
+    color: #c59d5f;
+    padding-left: 1.5rem;
+    cursor: pointer;
+    }
+
+    #borderBottom{
+        height: 2px;
+        width: 400px;
+        background-color: #222;
+    }
